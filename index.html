@@ -3,56 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modern Consulting Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Inspire11 Clone | Modern Consulting</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#case-studies">Case Studies</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">Inspire<span>11</span></div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#" class="btn-contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section id="hero">
-        <div class="hero-content">
-            <h1>Transforming Your Business</h1>
-            <p>We provide solutions that tailor to your unique needs.</p>
-            <a href="#contact" class="cta-button">Get in Touch</a>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Make shift happen</h1>
+                <p>A practical, system-level blueprint for turning enterprise AI ambition into measurable impact.</p>
+                <a href="#" class="btn-primary">Get the Blueprint</a>
+            </div>
         </div>
     </section>
-    <section id="services">
-        <h2>Our Services</h2>
-        <div class="services-grid">
-            <div class="service-item">Service 1</div>
-            <div class="service-item">Service 2</div>
-            <div class="service-item">Service 3</div>
-            <div class="service-item">Service 4</div>
+
+    <section class="services">
+        <div class="container">
+            <h2 class="section-title">How we ignite growth</h2>
+            <div class="grid">
+                <div class="card">
+                    <div class="icon">🚀</div>
+                    <h3>Build strategy with execution</h3>
+                    <p>We craft strategies grounded in action, ensuring seamless execution from start to finish.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">🤖</div>
+                    <h3>Weave AI into everything</h3>
+                    <p>We embed AI across all our solutions to drive smarter, faster outcomes.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">🤝</div>
+                    <h3>Align Incentives</h3>
+                    <p>Our success is tied to our clients' success—we win when they win.</p>
+                </div>
+            </div>
         </div>
     </section>
-    <section id="case-studies">
-        <h2>Case Studies</h2>
-        <div class="case-study-item">Case Study 1</div>
-        <div class="case-study-item">Case Study 2</div>
-        <div class="case-study-item">Case Study 3</div>
-    </section>
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Submit</button>
-        </form>
-    </section>
-    <footer>
-        <p>© 2026 Modern Consulting. All rights reserved.</p>
-    </footer>
+
 </body>
 </html>
